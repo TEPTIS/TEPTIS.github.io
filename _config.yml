@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
   Un lycéen qui partage des cours de maths et physique
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://teptis/github.io"
+url: "https://teptis.github.io"
 
 github:
   username: TEPTIS # change to your github username
