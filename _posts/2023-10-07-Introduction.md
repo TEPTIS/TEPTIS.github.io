@@ -8,7 +8,9 @@ L'introduction ci-dessous sera courte, et fera sûrement l'objet de modification
 
 
 Je suis TEPTIS, un lycéen curieux qui s'intéresse notamment aux mathématiques et aux sciences en général.
-Ce site a pour but de concaténer des cours variés sur différents sujets, afin de créer une véritable base de connaissances, un kit de survie pour les lycéens. Je n'ai évidemment pas la prétention de me considérer professeurs ; vous trouverez sur ce site une liste non exhaustive de cours - principalement en maths donc, reformulés et vulgarisés tant bien que mal par mes soins. Il se peut qu'il y ait des erreurs ou des imprécisions dans les cours ; si vous repérez une coquille, une formulation bancale ou un énoncé erroné, vous pouvez me le remonter sur Discord en m'ajoutant via mon id `teptis`. 
+Ce site a pour but de concaténer des cours variés sur différents sujets, afin de créer une véritable base de connaissances, un kit de survie pour les lycéens.
+ Je n'ai évidemment pas la prétention de me considérer professeur ; vous trouverez sur ce site une liste non exhaustive de cours - principalement en maths donc, reformulés et vulgarisés tant bien que mal par mes soins. 
+ Il se peut qu'il y ait des erreurs ou des imprécisions dans les cours ; si vous repérez une coquille, une faute d'orthographe, une formulation bancale ou un énoncé erroné, vous pouvez me le remonter sur Discord en m'ajoutant via mon id `teptis`. 
 
 
 Les cours postés ici suivront globalement les grandes lignes du programme de lycée. 
