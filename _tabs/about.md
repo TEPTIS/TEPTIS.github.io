@@ -4,5 +4,5 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
+> Qui suis-je ? Que contiendra ce site ? Toutes les informations dont vous avez besoin sont dans [ce post](_posts\2023-10-07-Introduction.md)
 {: .prompt-tip }
