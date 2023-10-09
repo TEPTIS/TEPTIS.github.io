@@ -7,7 +7,7 @@ math: true
 tags: ["maths", "Niveau 2nde"]
 ---
 
-# Ensembles
+## Ensembles
 
 Tout d'abord, nous allond devoir définir ce qu'est un ensemble. Une définition courante est la suivante : un ensemble est un regroupement d'objets mathématiques. On appelle élément d'un ensemble les objets en faisant partie. Les ensembles ne "sont pas sensibles à la multiplicité et à l'ordre des éléments". En termes plus simples, cela signifie que l'ordre des éléments d'un ensemble et le fait que ceux-ci y soient présents plusieurs fois ne changent pas l'ensemble. Un ensemble qui contiendrait $a$ et $b$ serait ainsi le même qu'un ensemble contenant $b$ et $a$, et un ensemble contenant deux fois $a$ et $a$ est exactement identique à un ensemble contenant $a$.
 
@@ -17,25 +17,25 @@ Pour dire qu'un élément $x$ appartient à un ensemble $X$, on note $x \in X$.
 
 Pour que deux ensembles $X$ et $Y$ soit égaux, il faut que pour tout élément $x$, la relation $x \in X \iff x \in Y$ soit vérifiée.
 
-# Ensembles usuels 
+## Ensembles usuels 
 
 
 On appelle ensembles usuels les ensembles les plus courants.
 
-## L'ensemble des entiers naturels
+### L'ensemble des entiers naturels
 
 On appelle entier naturel les nombres entiers positifs : 1, 2, 3, etc, ainsi que 0.
 
 L'ensemble de ces nombres se note $\mathbb{N}$. Ainsi, on a $1 \in \mathbb{N}$, $57432 \in \mathbb{N}$, etc.
 
-## L'ensemble des entiers relatifs
+### L'ensemble des entiers relatifs
 
 On appelle entier relatif tout nombre entier positif, négatif ou nul. 
 
 L'ensemble de ces nombres se note $\mathbb{Z}$ (cette dénomination vient de l'allemand "die Zahl").
 Ainsi, on a $-12 \in \mathbb{Z}$, $435 \in \mathbb{Z}$, mais aussi $14 \in \mathbb{Z}$. De manière générale, l'ensemble $\mathbb{Z}$ est l'ensemble des entiers naturels et des entiers négatifs. On peut donc noter : $\mathbb{N} \subset \mathbb{Z}$, ce qui signifie que l'ensemble $\mathbb{N}$ est inclus dans $\mathbb{Z}$.
 
-## L'ensemble des nombres décimaux
+### L'ensemble des nombres décimaux
 
 On appelle nombre décimal tout nombre pouvant s'écrire avec un nombre fini de décimales. 1,25 en est un, car son nombre de décimales est fini. 1,33333... n'en est cependant pas un, car sa partie décimale se compose d'une infinité de 3.
 
@@ -43,19 +43,19 @@ On note cet ensemble $\mathbb{D}$. Comme précédemment, on a $\mathbb{N} \subse
 
 
 
-## L'ensemble des nombres rationnels
+### L'ensemble des nombres rationnels
 
 On appelle nombre rationnel tout nombre qui peut s'écrire sous la forme d'une fraction de nombres entiers. Ainsi, 1,3333... pouvant s'écrire 4/3, il en fera partie.
 
 On note cet ensemble $\mathbb{Q}$, avec $\mathbb{N} \subset \mathbb{Z} \subset \mathbb{D} \subset \mathbb{Q}$.
 
-## L'ensemble des nombres réels
+### L'ensemble des nombres réels
 
 Un nombre irrationnel est un nombre ne pouvant pas s'écrire sous forme de fraction de nombres entiers, comme $\pi$ par exemple. 
 
 L'ensemble des nombres réels est l'ensemble contenant à la fois les nombres rationnels et irrationnels. Il se note $\mathbb{R}$. On retrouve toujours la relation $\mathbb{Q}$, avec $\mathbb{N} \subset \mathbb{Z} \subset \mathbb{D} \subset \mathbb{Q} \subset \mathbb{R}$.
 
-# Modifications d'ensembles
+## Modifications d'ensembles
 
 
 On applique parfois à ces ensembles certaines modifications, comme retirer le 0 ou ne considérer que les nombres positifs/négatifs.
@@ -64,7 +64,7 @@ Pour ne considérer que les nombres positifs d'un ensemble $X$, on note $X^+$. D
 
 Plus généralement, pour exclure un ensemble $Y$ d'un ensemble $X$, on note $X \setminus \\{Y\\}$. 
 
-# Intervalles de réels
+## Intervalles de réels
 
 - $x < y < z$ se note $y \in \]x;z\[$. On lit "$y$ appartient à l'intervalle ouverte de $x$ à $z$.
 
@@ -81,12 +81,12 @@ Par exemple, $x > y$ se noterait $x \in \]y; + \infty[$.
 > En utilisant $+ \infty$ ou $- \infty$ comme l'une des extrémités de l'intervalle, les crochets doivent impérativement être ouverte à cette extrémite.
 {: .prompt-warning }
 
-# Réunions et intersections
+## Réunions et intersections
 
-## Réunion
+### Réunion
 
 La réunion de deux ensembles (ou intervalles) représente l'ensemble des éléments appartenant à au moins un des deux ensembles. La réunion de deux ensembles $X$ et $Y$ se note $X \cup Y$.
 
-## Intersection
+### Intersection
 
 L'intersection de deux ensembles (ou intervalles) représente l'ensemble des éléments appartenant **aux deux** ensembles. La réunion de deux ensembles $X$ et $Y$ se note $X \cap Y$.
