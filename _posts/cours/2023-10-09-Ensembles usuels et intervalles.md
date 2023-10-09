@@ -95,4 +95,4 @@ L'intersection de deux ensembles (ou intervalles) représente l'ensemble des él
 
 On a vu que $\]x;y\[$ désignait l'ensemble des réels entre $x$ et $y$. Cependant, on peut parfois ne vouloir parler que des nombres entiers entre $x$ et $y$. 
 
-Comme vu avant, on peut noter ceci sous la forme de l'intersection entre les entiers relatifs et l'intervalle (soit $]x;y[ \cap \mathbb{Z}$). Cependant, il existe une autre notation : $]\!]x;y[\![$. Attention tout de même à bien utiliser des crochets normaux, et non pas des doubles crochets, à une extrémité de $\infty$ ou $-\infty$.
+Comme vu avant, on peut noter ceci sous la forme de l'intersection entre les entiers relatifs et l'intervalle (soit $]x;y[ \cap \mathbb{Z}$). Cependant, il existe une autre notation : $]\\!]x;y[\\![$. Attention tout de même à bien utiliser des crochets normaux, et non pas des doubles crochets, à une extrémité de $\infty$ ou $-\infty$.
