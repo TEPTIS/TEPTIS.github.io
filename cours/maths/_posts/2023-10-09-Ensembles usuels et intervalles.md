@@ -9,13 +9,22 @@ tags: ["maths", "Niveau 2nde"]
 
 ## Ensembles
 
-Tout d'abord, nous allond devoir définir ce qu'est un ensemble. Une définition courante est la suivante : un ensemble est un regroupement d'objets mathématiques. On appelle élément d'un ensemble les objets en faisant partie. Les ensembles ne "sont pas sensibles à la multiplicité et à l'ordre des éléments". En termes plus simples, cela signifie que l'ordre des éléments d'un ensemble et le fait que ceux-ci y soient présents plusieurs fois ne changent pas l'ensemble. Un ensemble qui contiendrait $a$ et $b$ serait ainsi le même qu'un ensemble contenant $b$ et $a$, et un ensemble contenant deux fois $a$ et $a$ est exactement identique à un ensemble contenant $a$.
+Tout d'abord, nous allond devoir définir ce qu'est un ensemble.
+
+Une définition courante est la suivante : un ensemble est un regroupement d'objets mathématiques. On appelle élément d'un ensemble les objets en faisant partie.
+
+> Ainsi, on peut voir un ensemble comme une sorte de boîte, qui contiendrait divers éléments (nombres, autres ensembles, etc)
+{: .prompt-tip }
+
+
+ Les ensembles ne "sont pas sensibles à la multiplicité et à l'ordre des éléments". En termes plus simples, cela signifie que l'ordre des éléments d'un ensemble et le fait que ceux-ci y soient présents plusieurs fois n'ont pas d'impact.
+ Un ensemble qui contiendrait $a$ et $b$ serait ainsi le même qu'un ensemble contenant $b$ et $a$, et un ensemble contenant deux fois est exactement identique à un ensemble contenant $a$.
 
 
 Pour dire qu'un élément $x$ appartient à un ensemble $X$, on note $x \in X$.
 
 
-Pour que deux ensembles $X$ et $Y$ soit égaux, il faut que pour tout élément $x$, la relation $x \in X \iff x \in Y$ soit vérifiée.
+Pour que deux ensembles $X$ et $Y$ soit égaux, il faut que pour tout élément $x$, la relation $x \in X \iff x \in Y$ soit vérifiée, c'est-à-dire que si un élément $x$ appartient à l'ensemble $X$, alors il appartient également à l'ensemble $Y$, et inversement.
 
 ## Ensembles usuels 
 
@@ -64,22 +73,6 @@ Pour ne considérer que les nombres positifs d'un ensemble $X$, on note $X^+$. D
 
 Plus généralement, pour exclure un ensemble $Y$ d'un ensemble $X$, on note $X \setminus \\{Y\\}$. 
 
-## Intervalles de réels
-
-- $x < y < z$ se note $y \in \]x;z\[$. On lit "$y$ appartient à l'intervalle ouverte de $x$ à $z$.
-
-- $x \leq y \leq z$ se note $y \in \[x;z\]$. On lit "$y$ appartient à l'intervalle fermée de $x$ à $z$.
-
-- $x \leq y < z$ se note $y \in \[x;z\[$
-
-- $x < y \leq z$ se note $y \in \]x;z\]$
-
-On peut également utiliser $+ \infty$ et $- \infty$ comme extrémités d'une intervalle.
-Par exemple, $x > y$ se noterait $x \in \]y; + \infty[$.
-
-
-> En utilisant $+ \infty$ ou $- \infty$ comme l'une des extrémités de l'intervalle, les crochets doivent impérativement être ouverte à cette extrémite.
-{: .prompt-warning }
 
 ## Réunions et intersections
 
@@ -96,3 +89,20 @@ L'intersection de deux ensembles (ou intervalles) représente l'ensemble des él
 On a vu que $\]x;y\[$ désignait l'ensemble des réels entre $x$ et $y$. Cependant, on peut parfois ne vouloir parler que des nombres entiers entre $x$ et $y$. 
 
 Comme vu avant, on peut noter ceci sous la forme de l'intersection entre les entiers relatifs et l'intervalle (soit $]x;y[ \cap \mathbb{Z}$). Cependant, il existe une autre notation : $]\\!]x;y[\\![$. Attention tout de même à bien utiliser des crochets normaux, et non pas des doubles crochets, à une extrémité de $\infty$ ou $-\infty$.
+
+## Intervalles de réels
+
+- $x < y < z$ se note $y \in \]x;z\[$. On lit "$y$ appartient à l'intervalle ouverte de $x$ à $z$.
+
+- $x \leq y \leq z$ se note $y \in \[x;z\]$. On lit "$y$ appartient à l'intervalle fermée de $x$ à $z$.
+
+- $x \leq y < z$ se note $y \in \[x;z\[$
+
+- $x < y \leq z$ se note $y \in \]x;z\]$
+
+On peut également utiliser $+ \infty$ et $- \infty$ comme extrémités d'une intervalle.
+Par exemple, $x > y$ se noterait $x \in \]y; + \infty[$.
+
+
+> En utilisant $+ \infty$ ou $- \infty$ comme l'une des extrémités de l'intervalle, les crochets doivent impérativement être ouverte à cette extrémite.
+{: .prompt-warning }
