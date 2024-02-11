@@ -18,7 +18,7 @@ Une définition courante est la suivante : un ensemble est un regroupement d'obj
 
 
  Les ensembles ne "sont pas sensibles à la multiplicité et à l'ordre des éléments". En termes plus simples, cela signifie que l'ordre des éléments d'un ensemble et le fait que ceux-ci y soient présents plusieurs fois n'ont pas d'impact.
- Un ensemble qui contiendrait $a$ et $b$ serait ainsi le même qu'un ensemble contenant $b$ et $a$, et un ensemble contenant deux fois est exactement identique à un ensemble contenant $a$.
+ Un ensemble qui contiendrait $a$ et $b$ serait ainsi le même qu'un ensemble contenant $b$ et $a$, et un ensemble contenant deux fois $a$ est exactement identique à un ensemble contenant $a$.
 
 
 Pour dire qu'un élément $x$ appartient à un ensemble $X$, on note $x \in X$.
