@@ -84,11 +84,6 @@ La réunion de deux ensembles (ou intervalles) représente l'ensemble des élém
 
 L'intersection de deux ensembles (ou intervalles) représente l'ensemble des éléments appartenant **aux deux** ensembles. La réunion de deux ensembles $X$ et $Y$ se note $X \cap Y$.
 
-## Intervalles de nombres entiers
-
-On a vu que $\]x;y\[$ désignait l'ensemble des réels entre $x$ et $y$. Cependant, on peut parfois ne vouloir parler que des nombres entiers entre $x$ et $y$. 
-
-Comme vu avant, on peut noter ceci sous la forme de l'intersection entre les entiers relatifs et l'intervalle (soit $]x;y[ \cap \mathbb{Z}$). Cependant, il existe une autre notation : $]\\!]x;y[\\![$. Attention tout de même à bien utiliser des crochets normaux, et non pas des doubles crochets, à une extrémité de $\infty$ ou $-\infty$.
 
 ## Intervalles de réels
 
@@ -104,5 +99,11 @@ On peut également utiliser $+ \infty$ et $- \infty$ comme extrémités d'une in
 Par exemple, $x > y$ se noterait $x \in \]y; + \infty[$.
 
 
-> En utilisant $+ \infty$ ou $- \infty$ comme l'une des extrémités de l'intervalle, les crochets doivent impérativement être ouverte à cette extrémite.
+> En utilisant $+ \infty$ ou $- \infty$ comme l'une des extrémités de l'intervalle, les crochets doivent impérativement être ouverts à cette extrémité.
 {: .prompt-warning }
+
+## Intervalles de nombres entiers
+
+On a vu que $\]x;y\[$ désignait l'ensemble des réels entre $x$ et $y$. Cependant, on peut parfois ne vouloir parler que des nombres entiers entre $x$ et $y$. 
+
+Comme vu avant, on peut noter ceci sous la forme de l'intersection entre les entiers relatifs et l'intervalle (soit $]x;y[ \cap \mathbb{Z}$). Cependant, il existe une autre notation : $]\\!]x;y[\\![$. Attention tout de même à bien utiliser des crochets normaux, et non pas des doubles crochets, à une extrémité de $\infty$ ou $-\infty$.
